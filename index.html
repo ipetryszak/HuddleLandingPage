@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link href="css/style.css" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -16,35 +16,50 @@
 </head>
 <body>
 
-  Try It Free
+  <header>
+    <img class="logo" src="images/logo.svg" alt="huddle logo">
+    <button class="button">Try It Free</button>
 
-  Build The Community Your Fans Will Love
+    <div class="header-elements">
+      <div class="left-text">
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
+        <h1>Build The Community Your Fans Will Love</h1>
+        <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+        Create connections with your users as you engage in genuine discussion.</p>
+      <button class="button button-pink">Get Started For Free</button>
+      </div>
+      <div class="right-pic">
+        <img class="mockups" src="images/illustration-mockups.svg" alt="mockups">
+      </div>
+    </div>
+  </header>
 
-  Get Started For Free
-
-  Grow Together
-
-  Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
-
-  Flowing Conversations
-
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads 
-  have just-in-time loading for a more natural flow.
-
-  Your Users
-
-  It takes no time at all to integrate Huddle with your app's authentication solution. 
-  This means, once signed in to your app, your users can start chatting immediately.
-
+  <div class="container">
+    <div class="row-element first">
+      <img class="content-pic grow-together" src="images/illustration-grow-together.svg" alt="grow-together">
+    <h2>Grow Together</h2>
+    <p>Generate meaningful discussions with your audience and build a strong, loyal community.
+      Think of the insightful conversations you miss out on with a feedback form.</p>
+    </div>
+    <div class="row-element second">
+      <img class="content-pic flowing-conv" src="images/illustration-flowing-conversation.svg" alt="flowing-conv">
+      <h2>Flowing Conversations</h2>
+      <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads
+        have just-in-time loading for a more natural flow.</p>
+    </div>
+    <div class="row-element third">
+          <img class="content-pic your-users" src="images/illustration-your-users.svg" alt="you-use">
+        <h2>Your Users</h2>
+        <p>It takes no time at all to integrate Huddle with your app's authentication solution.
+        This means, once signed in to your app, your users can start chatting immediately.</p>
+    </div>
+  </div>
+<!--
   Ready To Build Your Community?
 
   Get Started For Free
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
   incididunt ut labore et dolore magna aliqua
 
   +1-543-123-4567
@@ -62,9 +77,10 @@
 
   <footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer>
+-->
 </body>
 </html>

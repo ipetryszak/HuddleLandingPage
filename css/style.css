@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&display=swap');
+body {
+  margin: 0 auto;
+  max-width: 950px;
+}
+h1 {
+    font-family: 'Poppins';
+    font-size: 1.7rem;
+}
+header p {
+    font-family: 'Poppins';
+    font-size: 0.7rem;
+    font-weight: 400;
+    margin-bottom: -1em;
+}
+header {
+  background: url("../images/bg-hero-desktop.svg");
+  background-color: #edf4f7;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*--HEADER--*/
+.logo {
+  margin: 2em 0 1em 3em;
+  width: 8em;
+}
+.button {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 0.7rem;
+  border: none;
+  color: white;
+  padding: 0.8em 4em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  box-shadow: 0.05em 0.05em 1em #d9d9d9;
+  border-radius: 3rem;
+  float: right;
+  margin: 3em 6em 1em 0;
+  outline: none;
+}
+.button-pink {
+  color: white;
+  background: hsl(322, 100%, 66%);
+  float: left;
+  padding: 1.1em 4em;
+}
+.header-elements {
+  margin: 3em;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2em;
+}
+.left-text {
+  flex-basis: 42%;
+  align-self: center;
+}
+.mockups {
+  width: 100%;
+}
+.right-pic {
+  flex-basis: 55%
+}
+/*--THE END OF HEADER--*/
+/*--CONTENT--*/
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+.row-element {
+  border: magenta solid 1px;
+  box-shadow: 0.5em 0.5em 2em #d9d9d9;
+}
+.content-pic {
+  max-width: 30%;
+}
+.grow-together, .your-users {
+  float: right;
+}
+.flowing-conv {
+  float: left;
+}
