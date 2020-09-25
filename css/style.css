@@ -191,3 +191,86 @@ header {
   height: 4em;;
   fill: white;
 }
+
+@media screen and (max-width: 500px)
+{
+  header {
+    background: url("../images/bg-hero-mobile.svg");
+    background-color: hsl(193, 100%, 96%);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h1 {
+      font-family: 'Poppins';
+      font-size: 1.7rem;
+  }
+  .button {
+    padding: 0.8em 2em;
+    margin: 2em 3em 1em 0;
+  }
+  .header-elements {
+    flex-direction: column;
+    text-align: center;
+    margin: 2em;
+  }
+  .left-text p {
+    font-family: 'Open Sans';
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .button-pink {
+    margin: 4em 0em;;
+    float: none;
+    padding: 1.2em 4em;
+    font-size: 0.9rem;
+  }
+  .container {
+    margin-top: 3em;
+  }
+
+  .row-element {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.second {
+  flex-direction: column;
+}
+  .first-el, .second-el-exc  {
+    padding: 1em;
+    text-align: center;
+  }
+  .second-el, .first-el-exc {
+    display: block;
+    text-align: center;
+    padding: 1em;
+
+  }
+  .first-el  p, .second-el-exc p, .footer  p {
+    font-family: 'Open Sans';
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .join-space {
+    max-width: 75%;
+  }
+  .button-down {
+    margin: 1em 0em 1em 0;
+    padding: 1.3em 4em;
+  }
+.footer {
+  flex-direction: column;
+}
+.left-col {
+  margin: 4em 2em 2em 2em;
+}
+.middle-col {
+  text-align: left;
+  align-self: flex-start;
+  padding-left: 2em;
+  font-size: 1.2em;
+}
+.right-col {
+  text-align: center;
+}
+
+}
